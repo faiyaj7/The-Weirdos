@@ -9,7 +9,7 @@ import Logo from "../Logo";
 
 import { FaTwitter, FaInstagram, FaLinkedin, FaFacebook } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
+
 const Footer = () => {
   return (
     <footer className="flex items-center justify-center flex-col w-full min-h-screen ">
@@ -52,7 +52,7 @@ const Footer = () => {
             </div>
           </div>
           {/* Menu */}
-          <div className="mb-8 hidden lg:visible">
+          <div className="mb-8 hidden lg:block">
             <ul className="grid grid-cols-2 w-full gap-x-64 gap-y-4 font-light auto-cols-fr ">
               <Link
                 href="#home"

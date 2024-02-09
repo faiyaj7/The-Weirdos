@@ -9,7 +9,7 @@ import img7 from "../../assets/Nfts/bighead-7.svg";
 import img8 from "../../assets/Nfts/bighead-8.svg";
 import img9 from "../../assets/Nfts/bighead-9.svg";
 import img10 from "../../assets/Nfts/bighead-10.svg";
-import { runFireworks } from "../Confetti";
+
 const MemberComponent = ({ img, name = "", position = "" }) => {
   return (
     <div
